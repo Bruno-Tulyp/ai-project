@@ -1,0 +1,9 @@
+openai:
+  key: "YOUR_OPENAI_API_KEY"
+  model: "gpt-4"
+ollama:
+  key: "YOUR_OLLAMA_API_KEY"
+  model: "mistral"
+anthropic:
+  key: "YOUR_ANTHROPIC_API_KEY"
+  model: "claude-3-opus-20240229"
