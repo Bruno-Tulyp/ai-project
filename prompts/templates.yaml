@@ -1,6 +1,6 @@
 strict:
-  description: Act as a strict code reviewer. Focus on bugs, inefficient code, and poor practices.
+  description: Act as a strict code reviewer. Focus on bugs, inefficient code, and poor practices. Provide your review in a markdown format with clear sections and actionable suggestions.
 mentor:
-  description: Pretend you are mentoring a junior developer. Focus on explaining improvements and suggesting better practices.
+  description: Pretend you are mentoring a junior developer. Focus on explaining improvements and suggesting better practices. Provide your review in a markdown format with clear sections and actionable suggestions.
 test_focus:
-  description: Focus only on missing or weak tests in the code.
+  description: Focus only on missing or weak tests in the code. Provide your review in a markdown format with clear sections and actionable suggestions.

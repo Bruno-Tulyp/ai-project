@@ -8,7 +8,7 @@ class CodeAnalyzer:
 
     def generate_prompt(self, code_snippet):
         prompt = self.prompts.get(self.mode, {}).get("description", "")
-        return f"{prompt}\n\nCode:\n{code_snippet}"
+        return f"{prompt}\n\nCode to review:\n{code_snippet}"
 
     def analyze_code(self, code_snippet, llm_client):
         prompt = self.generate_prompt(code_snippet)
